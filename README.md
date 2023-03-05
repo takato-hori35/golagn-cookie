@@ -14,4 +14,5 @@ http.HandleFunc("/cookie", showCookie)
 	http.HandleFunc( url string, hander func(ResponseWriter, *Request))
 ```
 第一引数にpathを文字列で指定
+
 第二引数に実行したい関数を渡す(handlerを登録)
